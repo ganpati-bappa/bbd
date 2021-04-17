@@ -13,6 +13,7 @@ import SingupPage from './pages/SingupPage';
 import DashboardPage from './pages/DashboardPage';
 import OrganizeCampPage from './pages/OrganizeCampPage';
 import RegBloodBankPage from './pages/RegBloodBankPage';
+import NomatchPage from './pages/NomatchPage';
 import Header from './components/Header';
 
 const PrivateRoute = ({ component: Component, isLogin }) => {
@@ -34,6 +35,7 @@ export default function App() {
         <Route path='/search' component={SearchPage} />
         <Route path='/auth' component={AuthPage} />
         <Route path='/singup' component={SingupPage} />
+        <Route path='*' component={NomatchPage} />
 
         <PrivateRoute
           path={'/dashboard'}
