@@ -1,0 +1,10 @@
+.homepage-wrapper {
+    overflow-x: hidden;
+
+    .homepage-wrapper-sections {
+        overflow-x: hidden;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
