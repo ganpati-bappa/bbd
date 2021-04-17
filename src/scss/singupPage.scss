@@ -1,0 +1,58 @@
+.singup_page_con {
+  width: 100%;
+  height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 100px;
+  background-color: #f14875ee;
+}
+
+.info_text_con {
+  :first-child {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.info_form_con {
+  .name_field {
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .age_field {
+    display: inline-block;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+  }
+}
+
+.submit_btn {
+  display: block;
+  outline: none;
+  margin-top: 20px;
+  margin-left: 25%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.submit_btn :hover {
+  background-color: #f14875ee;
+}
+
+.submit_btn :focus {
+  background-color: #f14875ee;
+}

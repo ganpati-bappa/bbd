@@ -1,0 +1,134 @@
+.header_con {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 0px 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.header_links {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header_links_left {
+  margin-left: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .logo_link {
+    font-size: 25px;
+    align-self: center;
+    color: #f00946;
+  }
+  .nav_link {
+    margin-left: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+.header_links_right {
+  height: 100%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .auth_link {
+    width: 70px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: #0ec99a;
+    border-radius: 12px;
+  }
+  .logout_btn {
+    width: 100px;
+    height: 25px;
+    background-color: #ccc;
+    border: 1px solid #525151;
+    border-radius: 12px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+
+    .logout_btn:hover {
+      background-color: #f14875;
+      color: #fff;
+    }
+  }
+}
+
+.search_box_con {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 20px;
+
+  .search_box {
+    flex: 1;
+    width: calc(100% - 240px);
+    background-color: #ccc;
+    border-right: 1px solid #ccc;
+  }
+
+  .pac-container {
+    width: calc(100% - 240px);
+    background-color: #f00946;
+
+    .pac-item {
+      background-color: #f00946;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+  }
+
+  .search_btn_con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .search_btn {
+      width: 100px;
+      height: 30px;
+      margin-left: 20px;
+      background-color: #fff;
+      border: none;
+      border-radius: 15px;
+      color: black;
+      font-size: 15px;
+      font-weight: 700;
+      outline: none;
+    }
+    .search_btn:hover {
+      background-color: #ccc;
+      color: #fff;
+    }
+    .search_btn:focus {
+      background-color: #f14875;
+      color: #fff;
+    }
+  }
+}
