@@ -1,9 +1,14 @@
 import React from 'react';
 
-export default function RegBloodBankPage() {
+//Components 
+import {RegisterBloodBank} from './../Components/RegisterBloodBank'
+
+export const RegBloodBankPage = () => {
   return (
     <div>
-      <h2>RegBloodBankPage</h2>
+        <RegisterBloodBank/>
     </div>
   );
 }
+
+export default RegisterBloodBank
