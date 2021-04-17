@@ -5,13 +5,15 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 // Images
-import Illus1 from './../assets/movie3.png';
-import Illus2 from './../assets/Photo.png';
+import Illus1 from './../assets/bloodDonate.jpg'
+import Illus2 from './../assets/Photo.png'
+import Illus3 from './../assets/Photo3.png'
+import Illus4 from './../assets/EmergencyDonateblood.png'
 
 // SCSS
 import '../scss/HomepageSection.scss';
 
-const Images = [Illus1, Illus2];
+const Images = [Illus1, Illus2, Illus3, Illus4];
 
 function HomepageSection({
   lightbg,
