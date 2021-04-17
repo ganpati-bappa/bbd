@@ -1,0 +1,66 @@
+.Camp-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    overflow: auto;
+
+    .Camp-container_personal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 2rem 2rem 2rem;
+        flex-basis: 100%;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 2px 2px rgba(20,20,20,0.4);
+        border-radius: 10%;
+        border: 0.002px solid rgba(0,0,0,0.1);
+        max-width: 450px;
+        margin: 3rem;
+
+        .Camp-container-name {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .Camp-container_personal_next {
+            display: relative;
+            float: right;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+
+        .Camp-container_address {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .Camp-container_personal_prev {
+            display: relative;
+            float: right;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            cursor: pointer;
+        }
+    }
+
+    .BloodCampOrganise-imgWrapper {
+        width: 40%;
+
+        img {
+            display: inline-block;
+            vertical-align: center;
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .BloodCampOrganise-imgWrapper {
+        display: none;
+    }
+}
