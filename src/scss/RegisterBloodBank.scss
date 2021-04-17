@@ -1,0 +1,33 @@
+.RegisterPage-wrapper {  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    overflow: auto;
+
+    .Register-Bank-form-Container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 2rem 2rem 2rem;
+        flex-basis: 100%;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 2px 2px rgba(20,20,20,0.4);
+        border-radius: 10%;
+        border: 0.002px solid rgba(0,0,0,0.1);
+        max-width: 450px;
+        margin: 3rem;
+    }
+
+    .blood-Types {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        transform: translateY(-10px);
+    }
+
+    .Register-btn-container {
+        margin-top: 15px;
+    }
+}
