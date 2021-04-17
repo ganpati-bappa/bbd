@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://8bda1938166b.ngrok.io' });
+const API = axios.create({ baseURL: 'http://0eca9c31ce86.ngrok.io' });
 
 API.interceptors.request.use(function (config) {
   const token = JSON.parse(localStorage.getItem('persist:root')).token;

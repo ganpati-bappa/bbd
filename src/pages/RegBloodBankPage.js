@@ -1,7 +1,7 @@
 import React from 'react';
 
 //Components 
-import {RegisterBloodBank} from './../Components/RegisterBloodBank'
+import {RegisterBloodBank} from '../components/RegisterBloodBank'
 
 export const RegBloodBankPage = () => {
   return (

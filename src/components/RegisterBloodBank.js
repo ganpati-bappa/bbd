@@ -1,15 +1,15 @@
 import React from 'react'
 
 //SCSS
-import './../SCSS/RegisterBloodBank.scss'
+import '../scss/RegisterBloodBank.scss'
 
 // Components 
-import Editbox from './../Components/EditBox.js'
-import {BloodComponent} from './../Components/BloodComponent.js'
-import {Button} from './../Components/Button.js'
+import Editbox from '../components/EditBox.js'
+import {BloodComponent} from '../components/BloodComponent.js'
+import {Button} from '../components/Button.js'
 
 // Images
-import Illus1 from './../Assets/hospital.webp'
+import Illus1 from '../assets/hospital.webp'
 
 export const RegisterBloodBank = () => {
     return (
