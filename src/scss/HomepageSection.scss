@@ -1,97 +1,115 @@
 .home__homepage-section {
-  color: #ffff;
-  padding: 160px 0;
+    color: #ffff;
+    padding: 160px 0;
 
-  .home__homepage-row {
-    align-items: center;
-    justify-content: center;
+    .home__homepage-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    
+        .col {
+            margin-bottom: 10px;
+            max-width: 45%;
+        
+            .home__homepage-text-wrapper {
+                margin-left: 10px;
+                margin-right: 20px;
+                max-width: 580px;
+                padding-bottom: 60px;
+                min-width: 150px;
+                padding-left: 30px;
+                padding-right: 30px;
+            
+                
+                .top-line {
+                    min-width: 150px;
+                    color: #f00946;
+                    font-size: 15px;
+                    line-height: 0px;
+                    font-weight: 700;
+                    letter-spacing: 1.4px;
+                    text-transform: uppercase;
+                }
+            
+                .heading {
+                    padding-right: 0px;
+                    margin-bottom: 24px;
+                    font-size: 49px;
+                    line-height: 1.1;
+                    font-weight: 600;
+                }
+    
+                .home__homepage-subtitle {
+                    max-width: 440px;
+                    margin-bottom: 35px;
+                    font-size: 15px;
+                    line-height: 24px;
+                    font-weight: 400;
+                }
+            }
+        } 
 
-    .col {
-      margin-bottom: 10px;
-      flex: 1;
-      max-width: 50%;
-      flex-basis: 50%;
+        .home__homepage-img-wrapper {
+            width: 55%;
 
-      .home__homepage-text-wrapper {
-        max-width: 580px;
-        padding-top: 0px;
-        padding-bottom: 60px;
-        min-width: 200px;
-        padding-left: 50px;
+            .homepage-image {
+                max-width: 100%;
+                margin: 0 0 0 5px;
+                padding-right: 0px;
+            }
 
-        .top-line {
-          min-width: 220px;
-          color: #f00946;
-          font-size: 15px;
-          line-height: 0px;
-          font-weight: 700;
-          letter-spacing: 1.4px;
-          text-transform: uppercase;
+            img {
+                border: 0;
+                max-width: 100%;
+                vertical-align: middle;
+                display: inline-block;
+            }
         }
-
-        .heading {
-          margin-bottom: 24px;
-          font-size: 49px;
-          line-height: 1.1;
-          font-weight: 600;
-        }
-
-        .home__homepage-subtitle {
-          max-width: 440px;
-          margin-bottom: 35px;
-          font-size: 15px;
-          line-height: 24px;
-          font-weight: 400;
-        }
-      }
     }
-
-    .home__homepage-img-wrapper {
-      max-width: 600px;
-
-      .homepage-image {
-        max-width: 95%;
-        margin: 0 0 0 5px;
-        padding-right: 0px;
-      }
-
-      img {
-        border: 0;
-        max-width: 100%;
-        vertical-align: middle;
-        display: inline-block;
-      }
-    }
-  }
 }
 
 .row {
-  display: flex;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  flex-wrap: wrap;
-  align-content: stretch;
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
 }
 
 .dark {
-  color: #1c2328;
+    color: #1c2328;
 }
 
 .darkBg {
-  background-color: #1c2237;
+    background-color: #1c2237;
 }
 
-@media screen and (max-width: 768px) {
-  .home__homepage-text-wrapper {
-    padding-bottom: 65px;
-    padding-left: 0px;
-  }
 
-  .col {
-    max-width: 100%;
-    flex-basis: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-  }
+@media screen and (max-width: 768px) {
+    .home__homepage-row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home__homepage-text-wrapper {
+        padding-bottom: 65px;
+        padding-left: 0px;
+
+    }
+
+    .col {
+        max-width: 100%;
+        flex-basis: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    .home__homepage-img-wrapper {
+        display: none;
+    }
 }
