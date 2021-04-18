@@ -1,6 +1,6 @@
-# BloodBank App
+### BloodBank App
 
-# Link to our slides : https://docs.google.com/presentation/d/1wOchFhB5JGfL9bxRmdDtYpsmcEAgvoJf3IHWsI_4snc/edit?usp=sharing
+> Link to our slides : https://docs.google.com/presentation/d/1wOchFhB5JGfL9bxRmdDtYpsmcEAgvoJf3IHWsI_4snc/edit?usp=sharing
 
 #
 
