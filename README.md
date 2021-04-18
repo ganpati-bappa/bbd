@@ -4,7 +4,7 @@
 
 #
 
-#### **use following commands to run web app locally**
+#### **Use following commands to run web app locally**
 
 ##### Open Command Prompt and to install  Blood Bank database locally on system, type Command:
 > npm install
@@ -14,30 +14,28 @@
 #
 #
 
-#### **use following commands to run backend server for web as well as app locally**
+#### **Use following commands to run backend server for web as well as app locally**
 
 > npm install
 # 
 > npm start 
 
-##### use ngrok to host server localy
+#### **Use ngrok to host server locally*
 
-# to install ngrok npm install -g ngrok
-
-#
-
-#
+# To install ngrok type Command:
+>npm install -g ngrok
 
 #
+#
 
-# use following commands to run react-native app
+#### **Use following commands to run react-native app**
 
-# you have expo-cli installed
+##### For this, one have to install expo-cli on its system, to install expo cli type Command:
+> npm install -g expo-cli
 
-# to install expo-cli npm install -g expo-cli
+#### Then to install and run our app, Use Commands:
+> npm install
+####
+> expo start
 
-# npm install
-
-# expo start
-
-# install expo go app from playstore and scan qr code
+#### Install expo go app from playstore and scan qr code
