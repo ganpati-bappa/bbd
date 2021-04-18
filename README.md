@@ -1,4 +1,4 @@
-#### BloodBank App
+## BloodBank App
 
 > Link to our slides : https://docs.google.com/presentation/d/1wOchFhB5JGfL9bxRmdDtYpsmcEAgvoJf3IHWsI_4snc/edit?usp=sharing
 
@@ -12,8 +12,6 @@
 > npm start
 
 #
-#
-#### **Don't fomgat add ngrok hosted url in api/index.js it changes every time we host to run  web as well as app locally**
 
 #### **Use following commands to run backend server for web as well as app locally**
 
@@ -23,9 +21,7 @@
 
 #### **Use ngrok to host server locally and to install ngrok type Command:**
 >npm install -g ngrok
-#### **to host in ngrok type Command:**
->ngrok http 5000
-#
+
 #
 
 #### **Use following commands to run react-native app**
