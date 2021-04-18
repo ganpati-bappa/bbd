@@ -18,7 +18,8 @@
 > npm install
 ####
 > npm start 
-
+ 
+#### **Don't forget to add ngrok hosted url in api/index.js as it changes everytime when we run our app locally**
 #### **Use ngrok to host server locally and to install ngrok type Command:**
 >npm install -g ngrok
 
