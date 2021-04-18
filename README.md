@@ -1,14 +1,13 @@
-### BloodBank App
+#### BloodBank App
 
 > Link to our slides : https://docs.google.com/presentation/d/1wOchFhB5JGfL9bxRmdDtYpsmcEAgvoJf3IHWsI_4snc/edit?usp=sharing
 
 #
 
-# use following commands to run web app localy
+#### use following commands to run web app locally
 
-# npm install
-
-# npm run start
+npm install
+npm run start
 
 #
 
