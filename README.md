@@ -23,7 +23,7 @@
 #### **Use ngrok to host server locally and to install ngrok type Command:**
 >npm install -g ngrok
 #### To host backend locally use:
-> ngrock http 5000
+> ngrok http 5000
 #
 
 #### **Use following commands to run react-native app**
