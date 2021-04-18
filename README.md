@@ -13,6 +13,7 @@
 
 #
 #
+#### **Don't fomgat add ngrok hosted url in api/index.js it changes every time we host to run  web as well as app locally**
 
 #### **Use following commands to run backend server for web as well as app locally**
 
@@ -22,7 +23,8 @@
 
 #### **Use ngrok to host server locally and to install ngrok type Command:**
 >npm install -g ngrok
-
+#### **to host in ngrok type Command:**
+>ngrok http 5000
 #
 #
 
