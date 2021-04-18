@@ -17,6 +17,7 @@
 #### **use following commands to run backend server for web as well as app locally**
 
 > npm install
+> 
 > npm start 
 
 ##### use ngrok to host server localy
