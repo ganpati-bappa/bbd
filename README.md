@@ -4,25 +4,22 @@
 
 #
 
-### **use following commands to run web app locally**
+#### **use following commands to run web app locally**
 
-##### Open Command Prompt and to install  Blood Bank database locally on system type:
+##### Open Command Prompt and to install  Blood Bank database locally on system, type Command:
 > npm install
-#### Then to actually run it, type Command:
+##### Then to actually run it, type Command:
 > npm start
-#
 
 #
-
 #
 
-# use following commands to run backend server localy
+#### **use following commands to run backend server for web as well as app locally**
 
-# npm install
+> npm install
+> npm start 
 
-# npm start
-
-# use ngrok to host server localy
+##### use ngrok to host server localy
 
 # to install ngrok npm install -g ngrok
 
