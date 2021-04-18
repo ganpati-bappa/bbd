@@ -20,9 +20,9 @@
 ####
 > npm start 
 
-#### **Use ngrok to host server locally*
+#### **Use ngrok to host server locally**
 
-# To install ngrok type Command:
+#### To install ngrok type Command:
 >npm install -g ngrok
 
 #
