@@ -7,6 +7,7 @@ const initialState = {
   isVerify: false,
   number: null,
   codeSent: false,
+  name: '',
 };
 
 export default (state = initialState, action) => {
@@ -17,6 +18,7 @@ export default (state = initialState, action) => {
         isExist: action.payload.isExist === null ? false : true,
         isLogin: action.payload.isExist === null ? false : true,
         user: action.payload.isExist,
+        name: action.payload.isExist.name,
         token: action.payload.token,
         isVerify: true,
         number: action.payload.to,
@@ -30,6 +32,7 @@ export default (state = initialState, action) => {
       return {
         ...state,
         user: action.payload.user,
+        name: action.payload.user.name,
         isLogin: true,
         token: action.payload.token,
       };

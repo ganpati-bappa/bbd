@@ -9,7 +9,7 @@ export const homeObjOne = {
     imgStart: '',
     img: "0",
     alt: 'Kyu nhi load ho rhi',
-    link: './AuthPage.js'
+    link: '/regbloodbank'
 };
 
 export const homeObjTwo = {
@@ -23,21 +23,22 @@ export const homeObjTwo = {
     imgStart: 'start',
     img: "1",
     alt: 'Kyu nhi load ho rhi',
-    link: './Search'
+    link: '/search'
 };
 
 export const homeObjThree = {
-    lightbg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topline: 'Request Blood Camp',
-    headline: 'Organise Blood Camp',
-    description: 'Request for Blood Camp Organisation, gather together and donate blood in order to build a better, disease free India',
-    buttonLabel: 'Register',
-    imgStart: '',
-    img: "2",
-    alt: 'Kyu nhi load ho rhi',
-    link: './OrganiseCampPage.js'
+  lightbg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topline: 'Request Blood Camp',
+  headline: 'Organise Blood Camp',
+  description:
+    'Request for Blood Camp Organisation, gather together and donate blood in order to build a better, disease free India',
+  buttonLabel: 'Register',
+  imgStart: '',
+  img: '2',
+  alt: 'Kyu nhi load ho rhi',
+  link: '/organizecamp',
 };
 
 export const homeObjFour = {

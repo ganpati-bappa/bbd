@@ -8,6 +8,7 @@ import { getBank } from '../redux/actions/search';
 import { getCamp } from '../redux/actions/search';
 
 import '../scss/header.scss';
+import Dashboard from './Dashboard';
 
 export default function Header() {
   const isLogin = useSelector(state => state.auth.isLogin);
@@ -49,13 +50,10 @@ export default function Header() {
             <Link className='logo_link' to='/'>
               BloodBank
             </Link>
-            <Link className='nav_link' to='/becomedonor'>
-              Help Other
-            </Link>
-            <Link className='nav_link' to='/becomedonor'>
+            <Link className='nav_link' to='/regbloodbank'>
               Reg a Blood Bank
             </Link>
-            <Link className='nav_link' to='/becomedonor'>
+            <Link className='nav_link' to='/organizecamp'>
               Organize Blood Donation Camp
             </Link>
           </div>
@@ -65,9 +63,14 @@ export default function Header() {
                 LogOut
               </button>
             ) : (
-              <Link className='auth_link' to='/auth'>
-                Join
-              </Link>
+              <div>
+                <Link className='auth_link' to='/auth'>
+                  Login
+                </Link>
+                <Link className='auth_link' to='/singup'>
+                  singup
+                </Link>
+              </div>
             )}
           </div>
         </div>
@@ -99,6 +102,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+      <Dashboard />
       {isredirect ? <Redirect to='/search' /> : null}
     </>
   );

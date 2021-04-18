@@ -35,7 +35,6 @@ export default function App() {
         <Route path='/search' component={SearchPage} />
         <Route path='/auth' component={AuthPage} />
         <Route path='/singup' component={SingupPage} />
-        <Route path='*' component={NomatchPage} />
 
         <PrivateRoute
           path={'/dashboard'}

@@ -2,7 +2,7 @@ import React from 'react';
 
 import HomepageSection from '../components/HomepageSection';
 
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './home/data';
 
 import '../scss/Homepage.scss';
 

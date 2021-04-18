@@ -11,8 +11,8 @@ import otp from '../assets/otp.json';
 import otpsentto from '../assets/otpsentto.json';
 
 export default function AuthPage() {
-  const isExist = useSelector(state => state.auth.isExist);
-  const isVerify = useSelector(state => state.auth.isVerify);
+  const token = useSelector(state => state.auth.token);
+  const isLogin = useSelector(state => state.auth.isLogin);
   const codeSent = useSelector(state => state.auth.codeSent);
   const error = useSelector(state => state.auth.error);
   const dispatch = useDispatch();
@@ -100,8 +100,7 @@ export default function AuthPage() {
           )}
         </div>
       </div>
-      {!isExist && isVerify ? <Redirect to='/singup' /> : null}
-      {isExist && isVerify ? <Redirect to='/' /> : null}
+      {isLogin ? <Redirect to='/' /> : null}
     </>
   );
 }

@@ -63,7 +63,6 @@ export default function SingupPage() {
           </>
         </div>
       </div>
-      {!number ? <Redirect to='/auth' /> : null}
       {isLogin ? <Redirect to='/' /> : null}
     </>
   );
