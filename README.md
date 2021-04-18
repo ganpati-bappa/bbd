@@ -4,7 +4,7 @@
 
 #
 
-#### use following commands to run web app locally
+### **use following commands to run web app locally**
 
 ##### Open Command Prompt and to install  Blood Bank database locally on system type:
 > npm install
