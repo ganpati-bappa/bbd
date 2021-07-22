@@ -1,6 +1,11 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Blood_Bank_Search_App_BBD_0"></a>Blood Bank Search App “BBD”</h1>
 <h4 class="code-line" data-line-start=1 data-line-end=2 ><a id="Every_Life_Matters_1"></a>Every Life Matters</h4>
-<p class="has-line-data" data-line-start="4" data-line-end="6"><a href="https://travis-ci.org/joemccann/dillinger"><img src="https://travis-ci.org/joemccann/dillinger.svg?branch=master" alt="Build Status"></a><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![GitHub Issues](https://img.shields.io/github/issues/anfederico/clairvoyant.svg)](https://github.com/Mohit9486/bbd/issues)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 A Simple to use Android ios and web app to search required blood in near by blood banks and donors.</p>
 <h2 class="code-line" data-line-start=7 data-line-end=8 ><a id="Features_7"></a>Features</h2>
 <ul>
